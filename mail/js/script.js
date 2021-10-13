@@ -17,7 +17,7 @@ for (let i = 0; i < emailList.length; i++){
 
 //messaggio di accesso negato o consentito
 if (emailAbsent){
-    alert('La email non è presente nella lista di chi può accedere');
+    alert("Spiacente, l'email inserita non è presente nella lista di chi può accedere");
 } else {
-    alert('Puoi accedere')
+    alert("La tua email è presente. Puoi accedere!")
 }
